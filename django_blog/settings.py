@@ -31,6 +31,7 @@ ALLOWED_HOSTS = ['8000-brightigiem-expensestra-v4qyf5qader.ws-eu104.gitpod.io']
 # Application definition
 
 INSTALLED_APPS = [
+    'blog.apps.BlogConfig',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
